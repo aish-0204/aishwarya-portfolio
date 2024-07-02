@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 // import myImage from '../../assets/my-image2.jpg'
-import IMG6 from '../../assets/img6.jpeg'
+import IMG6 from '../../assets/img6.webp'
 
 import {GiGraduateCap} from 'react-icons/gi'
 import {BsBookmarkStar} from 'react-icons/bs'
@@ -28,7 +28,7 @@ const About = () => {
               <article className='about__card'>
                   <GiGraduateCap className='about__icon'/>
                   <h5>B.Tech</h5>
-                  <small>Electronics and Communication Engineering(ECE) Software Engneering(UG) <br /><i>University of JNTUA.</i></small>
+                  <small>Electronics and Communication Engineering(ECE)<br /><i>University of JNTUA.</i></small>
               </article>
 
               <article className='about__card'>
@@ -52,7 +52,7 @@ const About = () => {
 
             </div>
             <p>
-                    I'm a <b>Software Engineering Undergradute</b> at the University of JNTUA. 
+                    I'm a <b>Undergradute</b> at the University of JNTUA. 
                     I'm an enthusiastic and driven Software Engineering student seeking a challenging internship opportunity to apply 
                     and expand my technical skills. 
                     With a strong academic foundation in software engineering and hands-on experience in various programming languages,

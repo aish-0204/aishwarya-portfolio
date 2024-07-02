@@ -1,6 +1,6 @@
 import React from 'react'
 import './myprojects.css'
-import IMG1 from '../../assets/img5.jpg'
+import IMG5 from '../../assets/img5.png'
 import IMG2 from '../../assets/img2.png'
 
 const Myprojects = () => {
@@ -12,31 +12,21 @@ const Myprojects = () => {
 
       <div className="container portfolio__container">
 
-        <article className='portfolio__item'>
-            <div className="portfolio__item-image">
-                <img src={IMG1} alt="" />
-            </div>
-            <h3>Fashion Gallery</h3>
-            <small className='text-light'>Spring Boot | ReactJs | MySQL</small>
-            <div className="portfolio__item-cta">
-              <a href="https://github.com/aish-0204/FashionGallery" target="_blank" rel='noreferrer' className='btn'>Github</a>
-            </div>
-              
-        </article>
+      
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
                 <img src={IMG2} alt="" />
             </div>
-            <h3>Beauty Garden</h3>
-            <small className='text-light'>HTML | CSS | JS | php | MySQL</small>
+            <h3>Portfolio</h3>
+            <small className='text-light'>ReactJs</small>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/aish-0204/Beauty-Garden" target="_blank" rel='noreferrer' className='btn'>Github</a>  
+              <a href="https://github.com/aish-0204/aishwarya-portfolio" target="_blank" rel='noreferrer' className='btn'>Github</a>  
             </div>
             
         </article>
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
-                <img src={IMG1} alt="" />
+                <img src={IMG5} alt="" />
             </div>
             <h3>Todo List</h3>
             <small className='text-light'>ReactJs</small>
